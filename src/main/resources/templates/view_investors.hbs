@@ -1,3 +1,4 @@
+
 {{#partial "title"}}
     sign in
 {{/partial}}
@@ -19,7 +20,14 @@
                 </div>
                 <div class="form-group">
                     <label for="ranger">Category interested in</label>
-                    <input class="form-control" id="ranger" name="ranger" type="text" placeholder="Category interested in" required>
+                    <select name="category" id="category">
+                        <option value=""></option>
+                        <option value="e-commerce">E-Commerce</option>
+                        <option value="technology">Techology</option>
+                        <option value="health">Health</option>
+                        <option value="agribusiness">Agribusiness</option>
+                        <option value="transport">Transport</option>
+                    </select>
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-secondary btn-lg">Sign In</button>

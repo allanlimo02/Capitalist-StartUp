@@ -14,28 +14,24 @@ public class CapitalistsTest {
 
 
     @Test
-    public void getName() {\
-        Capitalists capitalists = new Capitalists("Jeff bessos",4,"spaceX");
-        assertEquals(4,getContacts());
-    }
-
-    @Test
-    public void setName() {
-    }
-
-    @Test
     public void getContacts() {
+        Capitalists capitalists = new Capitalists("Jeff bessos",4,"spaceX");
+        assertEquals(4,capitalists.getContacts());
     }
 
     @Test
-    public void setContacts() {
+    public void getName() {
+        Capitalists capitalists = new Capitalists("Jeff bessos",4,"spaceX");
+        assertEquals("Jeff bessos", capitalists.getName());
     }
+
+
 
     @Test
     public void getCategory() {
+        Capitalists capitalists = new Capitalists("Jeff bessos",4,"spaceX");
+        assertEquals("spaceX",capitalists.getCategory());
     }
 
-    @Test
-    public void setCategory() {
-    }
+
 }

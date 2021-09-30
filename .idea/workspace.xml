@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da09ce8-aab6-494e-a9c1-995b05bbf5f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Capitalists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Capitalists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Db/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/CapitalistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/CapitalistsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sighn_in.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

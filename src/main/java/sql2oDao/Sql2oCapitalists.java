@@ -13,7 +13,7 @@ public class Sql2oCapitalists implements CapitalistsDao {
 
     @Override
     public void create(Capitalists capitalist) {
-        String sql = "INSERT INTO investor (name,contact,category) VALUES(:name,:contact,:category)";
+        String sql = "INSERT INTO investor (name,contacts,category) VALUES(:name,:contacts,:category)";
         try(Connection con= sql2o.open()){
             int id = (int) con.createQuery(sql,true)
                     .bind(capitalist)

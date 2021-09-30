@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StartUpsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-30T08:49:56" hostname="allans-elitebook-840-g5" time="0.002">
+<testsuite name="StartUpsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-09-30T10:16:07" hostname="allans-elitebook-840-g5" time="0.005">
   <properties/>
-  <testcase name="startUpInstantiatesCorrectly" classname="StartUpsTest" time="0.002"/>
+  <testcase name="getCapital_getsCapital_correctly" classname="StartUpsTest" time="0.002"/>
+  <testcase name="getNameOfStartup_works_correctly" classname="StartUpsTest" time="0.0"/>
+  <testcase name="getCategory_gets_category_correctly" classname="StartUpsTest" time="0.0"/>
+  <testcase name="getName_getsname_correctly" classname="StartUpsTest" time="0.0"/>
+  <testcase name="startUpInstantiatesCorrectly" classname="StartUpsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

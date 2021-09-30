@@ -8,9 +8,9 @@ import java.util.List;
 public interface StartUpsDao {
     void add(StartUps startUps);
 
-    List<StartUps> startUps();
+    List<StartUps> findAll();
 
-    void delete(StartUps startUps);
+    void deleteAll(StartUps startUps);
 
     void deleteById(int id);
 }

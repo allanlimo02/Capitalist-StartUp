@@ -11,6 +11,7 @@ public class Sql2oStartUps implements StartUpsDao {
     public Sql2oStartUps(Sql2o sql20) {
         this.sql20 = sql20;
     }
+
     @Override
     public void add(StartUps startUps) {
         String sql="INSERT INTO startup ( name,name_of_startup,category,capital_needed) VALUES (:name,:name_of_startup,:category,:capital_needed)";
@@ -25,13 +26,13 @@ public class Sql2oStartUps implements StartUpsDao {
         }
     }
     @Override
-    public List<StartUps> startUps() {
+    public List<StartUps> findAll() {
         Connection conn=sql20.open();
         return conn.createQuery("SELECT * FROM startup")
                 .executeAndFetch(StartUps.class);
     }
     @Override
-    public void delete(StartUps startUps) {
+    public void deleteAll(StartUps startUps) {
         Connection conn= sql20.open();
         conn.createQuery("DELETE * FROM startup")
                 .executeUpdate();

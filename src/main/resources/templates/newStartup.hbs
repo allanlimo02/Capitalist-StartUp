@@ -1,0 +1,40 @@
+{{#partial}}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <form action="newstartup">
+                    <!-- Name -->
+                    <div>
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+                    <!-- Name of start-up -->
+                    <div>
+                        <label for="name_of_startup">Your Start-Up Name</label>
+                        <input type="text" name="name_of_startup" id="name_of_startup" class="form-control">
+                    </div>
+                    <!-- Category of startup -->
+                    <div>
+                        <label for="category">Your Start-Up Category</label>
+                        <input type="text" name="category" id="category" class="form-control">
+                    </div>
+                    <!-- Capital Needed -->
+                    <div>
+                        <label for="capital_Needed">Capital Needed</label>
+                        <input type="text" name="capital_Needed" id="capital_Needed" class="form-control">
+                    </div>
+                    <button class="btn btn-success" type="submit">Submit</button>
+                    <br>
+                    <br>
+                    <button class="btn btn-danger" type="reset">Reset Form</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+{{/partial}}
+{{> layout.hbs}}

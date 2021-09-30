@@ -38,9 +38,7 @@ public class StartUps {
         this.name_of_startup = name_of_startup;
     }
 
-    public String getCategory() {
-        return category;
-    }
+    public String getCategory() { return category; }
 
     public void setCategory(String category) {
         this.category = category;

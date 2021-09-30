@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da09ce8-aab6-494e-a9c1-995b05bbf5f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Db/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interfaces/CapitalistsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Interfaces/CapitalistsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/sql2oDao/Sql2oCapitalists.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/sql2oDao/Sql2oCapitalists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/CapitalistsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/CapitalistsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/model/CapitalistsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/model/CapitalistsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/sql2oDao/Sql2oCapitalistsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/sql2oDao/Sql2oCapitalistsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/model.CapitalistsTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/model.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-model.CapitalistsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sql2oDao/Sql2oCapitalists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql2oDao/Sql2oCapitalists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CapitalistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CapitalistsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sql2oDao/Sql2oCapitalistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sql2oDao/Sql2oCapitalistsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Capitalists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Capitalists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Db/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/CapitalistsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/CapitalistsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CapitalistsTest.create">
+  <component name="RunManager" selected="Gradle.CapitalistsTest.findById">
     <configuration name="CapitalistsTest.create" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,8 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CapitalistsTest.create" />
         <item itemvalue="Gradle.CapitalistsTest.findById" />
+        <item itemvalue="Gradle.CapitalistsTest.create" />
         <item itemvalue="Gradle.CapitalistsTest.getCategory" />
         <item itemvalue="Gradle.StartUpsTest.startUpInstantiatesCorrectly" />
         <item itemvalue="Gradle.Sql2oCapitalistsTest.create" />
@@ -246,6 +222,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/CapitalistsTest.java</url>
+          <line>12</line>
+          <properties class="CapitalistsTest" method="create">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/CapitalistsTest.java</url>
+          <line>20</line>
+          <properties class="CapitalistsTest" method="findById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/model/CapitalistsTest.java</url>

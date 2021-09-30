@@ -5,11 +5,11 @@ import java.util.Objects;
 public class Capitalists {
     private int Id;
     private String name;
-    private int contacts;
+    private String contacts;
     private String category;
 
 
-    public Capitalists(String name, int contacts, String category) {
+    public Capitalists(String name, String contacts, String category) {
         this.name = name;
         this.contacts = contacts;
         this.category = category;
@@ -31,11 +31,11 @@ public class Capitalists {
         this.name = name;
     }
 
-    public int getContacts() {
+    public String getContacts() {
         return contacts;
     }
 
-    public void setContacts(int contacts) {
+    public void setContacts(String contacts) {
         this.contacts = contacts;
     }
 

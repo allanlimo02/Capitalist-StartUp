@@ -1,0 +1,56 @@
+{{#partial "content"}}
+    <div class="container p-5 m-5">
+        <div class="row m-5">
+            <div class="col-md-6 text-center">
+                <h1 style="color:rgb(42,74,74);">SME-INCUBATOR</h1>
+                <br>
+                <br>
+                <img src="images/justicon.jpeg" style="width:400px;height:550; border-radius:500px 500px 500px 500px;"/>
+            </div>
+            <div class="col-md-6">
+                <br>
+                <br>
+                <form action="/new-mentees" method="post" id="loginform">
+                    <h1 class="text-center">REGISTER</h1>
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Username</label>
+                        <input type="text" name="name" class="form-control" id="username" aria-describedby="nameHelp" required placeholder="Enter name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="start-upName" class="form-label">Start-up Name</label>
+                        <input type="text" name="start-upName" class="form-control" id="startUpName" aria-describedby="nameHelp" required placeholder="Enter start-up name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="start-upName" class="form-label">Select Categories</label>
+                        <select name="category" id="category" class="form-control">
+                            <option value=""></option>
+                            <option value="e-commerce">E-Commerce</option>
+                            <option value="technology">Technology</option>
+                            <option value="health">Health</option>
+                            <option value="agribusiness">Agribusiness</option>
+                            <option value="transport">Transport</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="amount" class="form-label">Amount Needed</label>
+                        <input type="text" name="amount" class="form-control" id="useramount" aria-describedby="nameHelp" required placeholder="Enter amount needed">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" name="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="checkbox">
+                            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                        </label>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-lg btn-primary  text-center" style="background-color:rgb(42,74,74) !important;">Sign up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+{{/partial}}
+{{> layout.hbs}}

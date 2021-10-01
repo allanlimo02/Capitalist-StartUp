@@ -40,7 +40,7 @@ public class StartUpsTest {
     @Test
     public void getCapital_getsCapital_correctly() throws Exception{
         StartUps testStartUp = new StartUps("Jeff Bezos", "Amazon", "E-commerce", 500);
-        assertEquals(500, testStartUp.getCapital_Needed());
+        assertEquals(500, testStartUp.getCapital_needed());
     }
 
 }

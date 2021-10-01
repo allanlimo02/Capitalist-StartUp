@@ -7,13 +7,13 @@ public class StartUps {
     private String name;
     private String name_of_startup;
     private String category;
-    private int capital_Needed;
+    private int capital_needed;
 
     public StartUps(String name, String name_of_startup, String category, int capital_Needed) {
         this.name = name;
         this.name_of_startup = name_of_startup;
         this.category = category;
-        this.capital_Needed = capital_Needed;
+        this.capital_needed = capital_Needed;
     }
 
     public int getId() {
@@ -48,12 +48,12 @@ public class StartUps {
         this.category = category;
     }
 
-    public int getCapital_Needed() {
-        return capital_Needed;
+    public int getCapital_needed() {
+        return capital_needed;
     }
 
-    public void setCapital_Needed(int capital_Needed) {
-        this.capital_Needed = capital_Needed;
+    public void setCapital_needed(int capital_needed) {
+        this.capital_needed = capital_needed;
     }
 
     @Override
@@ -62,7 +62,7 @@ public class StartUps {
         if (o == null || getClass() != o.getClass()) return false;
         StartUps startUps = (StartUps) o;
         return id == startUps.id &&
-                capital_Needed == startUps.capital_Needed &&
+                capital_needed == startUps.capital_needed &&
                 Objects.equals(name, startUps.name) &&
                 Objects.equals(name_of_startup, startUps.name_of_startup) &&
                 Objects.equals(category, startUps.category);
@@ -70,6 +70,6 @@ public class StartUps {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, name_of_startup, category, capital_Needed);
+        return Objects.hash(id, name, name_of_startup, category, capital_needed);
     }
 }

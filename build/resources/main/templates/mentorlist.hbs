@@ -1,0 +1,47 @@
+{{#partial "content"}}
+
+    <div class="container m-5 p-5 d-flex">
+        <div class="container p-5 m-5 d-flex justify-content-between" style="color:rgb(42,74,74)!important;">
+            <h1>MENTORS</h1>
+            <div class="card me-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Aliko Dangote</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Category: Agribusiness</h6>
+                    <p class="card-text">Available Funds: Kshs 15000000</p>
+                </div>
+            </div>
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Akon</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Category: technology</h6>
+                    <p class="card-text">Available Funds: Kshs 10000000</p>
+                </div>
+            </div>
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Peter Munga</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Category: e-commerce</h6>
+                    <p class="card-text">Available Funds: Kshs 5000000</p>
+                </div>
+            </div>
+
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Vishal Patel</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Category: technology</h6>
+                    <p class="card-text">Available Funds: Kshs 2000000</p>
+                </div>
+            </div>
+
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: {{capitalist.name}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Category: {{capitalist.category}}</h6>
+                    <p class="card-text">Available Funds: {{capitalist.Amount}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{{/partial}}
+{{> layout.hbs}}

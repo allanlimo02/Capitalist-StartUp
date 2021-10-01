@@ -1,0 +1,50 @@
+{{#partial "content"}}
+    <<div class="container m-5 p-5 d-flex justify-content-center">
+        <div class="container p-5 m-5 d-flex justify-content-between" style="color:rgb(42,74,74)!important;">
+            <h1>MENTEES</h1>
+            <div class="card me-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Mwangi Munene</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: Tech Consultancy</h6>
+                    <p class="card-text">Category: technology</p>
+                    <p class="card-text" >Capital: Kshs 700,000 </p>
+                </div>
+            </div>
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Bridgette Atieno</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Start-Up: Beauty Parlor</h6>
+                    <p class="card-text">Category: Other</p>
+                    <p class="card-text">Capital: Kshs 350,000</p>
+                </div>
+            </div>
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Stephen Kilonzo</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: Carwash</h6>
+                    <p class="card-text">Category: transport</p>
+                    <p class="card-text">Capital: Kshs 200,000</p>
+                </div>
+            </div>
+
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: Wakoli Kunani</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: NGO</h6>
+                    <p class="card-text">Category: Agribusiness</p>
+                    <p class="card-text">Capital: Kshs 300,000</p>
+                </div>
+            </div>
+
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: {{startUp.name}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: {{startUp.name_of_startup}}</h6>
+                    <p class="card-text"> Category: {{startUp.category}}</p>
+                    <p class="card-text">Capital: Kshs {{startUp.capital_needed}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/partial}}
+{{> layout.hbs}}

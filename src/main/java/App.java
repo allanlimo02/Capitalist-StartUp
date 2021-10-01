@@ -8,6 +8,7 @@ import sql2oDao.Sql2oCapitalists;
 import sql2oDao.Sql2oStartUps;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static spark.Spark.*;
@@ -33,6 +34,7 @@ public class App {
             Map<String,Object> model=new HashMap<>();
             return new ModelAndView(model,"newStartup.hbs");
         }, new HandlebarsTemplateEngine());
+
         //get inputs from the form
         post("/success", (request,response)-> {
             Map<String, Object> model = new HashMap<>();
@@ -43,6 +45,14 @@ public class App {
             StartUps startUps1=new StartUps(name,name_of_startup,category,capital_needed);
             sql2oStartUps.add(startUps1);
             return new ModelAndView(model,"success.hbs");
+        }, new HandlebarsTemplateEngine());
+
+        //Display all Start-Ups via hbs
+        get("/allstartups", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            List<StartUps> startUps =sql2oStartUps.findAll();
+            model.put("startUps",startUps);
+            return new ModelAndView(startUps, "allstartups.hbs");
         }, new HandlebarsTemplateEngine());
 
         // post method to create a new start-up in postman

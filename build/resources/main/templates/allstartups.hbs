@@ -1,0 +1,40 @@
+{{#partial "content"}}
+    <div class="mainer"  >
+        <div class="w-90" style="border-radius: 10px; background-image: url(images/listBg.jpg);">
+            <div class="holder" style=" height: 800px; background-color: rgba(0, 50, 50, 0.5);" >
+                <div class="tables">
+                    <h2 class="text-center text-white">Here are all Available StartUps </h2>
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                         <table class="table" style="color:white;">
+                                <tr>
+                                    <thead>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Name of Start Up</th>
+                                    <th>Category</th>
+                                    <th>Amount Needed</th>
+                                    </thead>
+                                </tr>
+                                <tbody>
+                                {{#each}}
+                                    <tr>
+                                        <td>{{id}}</td>
+                                        <td>{{name}}</td>
+                                        <td>{{name_of_startup}}</td>
+                                        <td>{{category}}</td>
+                                        <td>{{capital_needed}}</td>
+                                    </tr>
+                                {{/each}}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/partial}}
+{{> layout.hbs}}

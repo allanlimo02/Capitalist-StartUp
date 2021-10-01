@@ -1,72 +1,47 @@
 {{#partial "content"}}
     <<div class="container m-5 p-5 d-flex justify-content-center">
-        <div class="container p-5 m-5 d-flex justify-content-between">
-            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
-                <div class="card-body">
-                    <h5 class="card-title">Daniel Murimi</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Software Developer</h6>
-                    <p class="card-text">Tech start-up business.</p>
-                    <a href="#" class="card-link" style="text-decoration:none;">Contact</a>
-                </div>
-            </div>
-
-            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
-                <div class="card-body">
-                    <h5 class="card-title">Samuel Kamotho</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Android Developer</h6>
-                    <p class="card-text">Agribusiness start-up business.</p>
-                    <a href="#" class="card-link" style="text-decoration:none;">Contact</a>
-                </div>
-            </div>
-            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
-                <div class="card-body">
-                    <h5 class="card-title">Samson Brown</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Accountant</h6>
-                    <p class="card-text">Trading start-up company.</p>
-                    <a href="#" class="card-link" style="text-decoration:none;">Contact</a>
-                </div>
-            </div>
-
-            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
-                <div class="card-body">
-                    <h5 class="card-title">John Otieno</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Tutor</h6>
-                    <p class="card-text">Online tuition business.</p>
-                    <a href="#" class="card-link" style="text-decoration:none;">Contact</a>
-                </div>
-            </div>
-
+        <div class="container p-5 m-5 d-flex justify-content-between" style="color:rgb(42,74,74)!important;">
+            <h1>MENTEES</h1>
             <div class="card me-2" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Mwangi Munene</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Farmer</h6>
-                    <p class="card-text">Poultry and fish farming start-up.</p>
-                    <a href="#" class="card-link" style="text-decoration:none;color:white !important;">Contact</a>
+                    <h5 class="card-title">Name: Mwangi Munene</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: Tech Consultancy</h6>
+                    <p class="card-text">Category: technology</p>
+                    <p class="card-text" >Capital: Kshs 700,000 </p>
                 </div>
             </div>
             <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Bridgette Atieno</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">News Reporter</h6>
-                    <p class="card-text">Entertainment start-up company.</p>
-                    <a href="#" class="card-link" style="text-decoration:none;">Contact</a>
+                    <h5 class="card-title">Name: Bridgette Atieno</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Start-Up: Beauty Parlor</h6>
+                    <p class="card-text">Category: Other</p>
+                    <p class="card-text">Capital: Kshs 350,000</p>
                 </div>
             </div>
             <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Stephen Kilonzo</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Music Artist</h6>
-                    <p class="card-text">Music studio start-up</p>
-                    <a href="#" class="card-link" style="text-decoration:none;">Contact</a>
+                    <h5 class="card-title">Name: Stephen Kilonzo</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: Carwash</h6>
+                    <p class="card-text">Category: transport</p>
+                    <p class="card-text">Capital: Kshs 200,000</p>
                 </div>
             </div>
 
             <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Wakoli Kunani</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Law student</h6>
-                    <p class="card-text">NGO</p>
-                    <a href="#" class="card-link" style="text-decoration:none;">Contact</a>
+                    <h5 class="card-title">Name: Wakoli Kunani</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: NGO</h6>
+                    <p class="card-text">Category: Agribusiness</p>
+                    <p class="card-text">Capital: Kshs 300,000</p>
+                </div>
+            </div>
+
+            <div class="card me-2" style="width: 18rem;color:rgb(42,74,74) !important;">
+                <div class="card-body">
+                    <h5 class="card-title">Name: {{startUp.name}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">StartUp: {{startUp.name_of_startup}}</h6>
+                    <p class="card-text"> Category: {{startUp.category}}</p>
+                    <p class="card-text">Capital: Kshs {{startUp.capital_needed}}</p>
                 </div>
             </div>
         </div>

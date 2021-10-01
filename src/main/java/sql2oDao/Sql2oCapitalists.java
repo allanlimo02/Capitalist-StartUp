@@ -9,7 +9,7 @@ import org.sql2o.Sql2oException;
 import java.util.List;
 
 public class Sql2oCapitalists implements CapitalistsDao {
-    Sql2o sql2o= new Sql2o("jdbc:postgresql://localhost:5432/startup_mentorship","kip","1234");
+    Sql2o sql2o= new Sql2o("jdbc:postgresql://localhost:5432/startup_mentorship","ngetich","12345");
 
     @Override
     public void create(Capitalists capitalist) {

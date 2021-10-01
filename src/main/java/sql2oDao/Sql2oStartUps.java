@@ -7,10 +7,11 @@ import org.sql2o.Sql2o;
 import java.util.List;
 
 public class Sql2oStartUps implements StartUpsDao {
-    private final Sql2o sql20;
-    public Sql2oStartUps(Sql2o sql20) {
-        this.sql20 = sql20;
-    }
+//    private final Sql2o sql20;
+//    public Sql2oStartUps(Sql2o sql20) {
+//        this.sql20 = sql20;
+//    }
+    Sql2o sql20= new Sql2o("jdbc:postgresql://localhost:5432/startup_mentorship","ngetich","12345");
 
     @Override
     public void add(StartUps startUps) {

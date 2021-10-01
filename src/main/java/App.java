@@ -20,7 +20,7 @@ public class App {
         Sql2o sql2o= new Sql2o("jdbc:postgresql://localhost:5432/startup_mentorship","ngetich","12345");
         //Connection con = sql2o.open();
         Sql2oCapitalists captalistsDao = new Sql2oCapitalists();
-        Sql2oStartUps startUpsDao = new Sql2oStartUps(sql2o);
+        Sql2oStartUps startUpsDao = new Sql2oStartUps();
 
         get("/",((request, response) -> {
             Map<String,Object> model = new HashMap<>();
@@ -56,7 +56,7 @@ public class App {
             return  new ModelAndView(model,"allMentors.hbs");
         }, new HandlebarsTemplateEngine());
 
-        post("/mentee-signupform/mentees",((request, response) -> {
+        post("/new-mentees",((request, response) -> {
             Map<String,Object> model = new HashMap<>();
             String name = request.queryParams("name");
             String name_of_startup = request.queryParams("start-upName");
@@ -67,6 +67,14 @@ public class App {
             model.put("startUp",startUp);
             return new ModelAndView(model, "menteelist.hbs");
         }), new HandlebarsTemplateEngine());
+        //display all mentees
+        get("/all-mentees",((request, response) -> {
+            Map<String, Object>model =new HashMap<>();
+            List<StartUps>startUps1=startUpsDao.findAll();
+            //model.put("startUps",startUps1);
+            return  new ModelAndView(model,"allStartups.hbs");
+        }), new HandlebarsTemplateEngine());
+
 
     }
 }

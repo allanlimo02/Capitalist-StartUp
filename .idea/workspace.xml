@@ -7,33 +7,19 @@
     <list default="true" id="0da09ce8-aab6-494e-a9c1-995b05bbf5f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Interfaces/StartUpsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Interfaces/StartUpsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/sql2oDao/Sql2oStartUps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/sql2oDao/Sql2oStartUps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/StartUpsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/StartUpsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/sql2oDao/Sql2oStartUpsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/sql2oDao/Sql2oStartUpsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/StartUpsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/StartUpsTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-StartUpsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-StartUpsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/Db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Db/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/StartUpsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/StartUpsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sql2oDao/Sql2oStartUps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql2oDao/Sql2oStartUps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newStartup.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newStartup.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StartUpsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StartUpsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sql2oDao/Sql2oStartUpsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sql2oDao/Sql2oStartUpsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Db/create.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

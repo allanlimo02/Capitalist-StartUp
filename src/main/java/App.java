@@ -48,6 +48,13 @@ public class App {
             model.put("capitalist", capitalist);
             return new ModelAndView(model, "mentorlist.hbs");
         }), new HandlebarsTemplateEngine());
+        //to display all mentors
+        get("/All_investors",(request, response) -> {
+            Map<String, Object>model =new HashMap<>();
+            List<Capitalists>capitalists2=captalistsDao.findAll();
+            model.put("capitalism2",capitalists2);
+            return  new ModelAndView(model,"allMentors.hbs");
+        }, new HandlebarsTemplateEngine());
 
         post("/mentee-signupform/mentees",((request, response) -> {
             Map<String,Object> model = new HashMap<>();
@@ -60,5 +67,6 @@ public class App {
             model.put("startUp",startUp);
             return new ModelAndView(model, "menteelist.hbs");
         }), new HandlebarsTemplateEngine());
+
     }
 }

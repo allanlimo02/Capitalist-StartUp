@@ -1,0 +1,30 @@
+{{#partial "content"}}
+    <div>
+        <h2 class="text-center">Pick An Investor</h2>
+    </div>
+    <!-- A table that will display the startUps to the investors -->
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">contacts</th>
+            <th scope="col">Category</th>
+            <th scope="col">Capital investing</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each capitalism2}}
+            <tr>
+                <th scope="row">{{id}}</th>
+                <td>{{name}}</td>
+                <td>{{amount}}</td>
+                <td>{{category}}</td>
+                <td>{{amount}}</td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+{{/partial}}
+{{> layout.hbs}}

@@ -7,9 +7,14 @@ public class Capitalists {
     private String name;
     private String contacts;
     private String category;
+    private int amount;
 
 
-    public Capitalists(String name, String contacts, String category) {
+
+
+
+    public Capitalists(String name, String contacts, String category,int amount) {
+        this.amount=amount;
         this.name = name;
         this.contacts = contacts;
         this.category = category;
@@ -46,6 +51,13 @@ public class Capitalists {
     public void setCategory(String category) {
         this.category = category;
     }
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -55,11 +67,12 @@ public class Capitalists {
         return Id == that.Id &&
                 contacts == that.contacts &&
                 Objects.equals(name, that.name) &&
-                Objects.equals(category, that.category);
+                Objects.equals(category, that.category)&&
+                Objects.equals(amount,that.amount);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(Id, name, contacts, category);
+        return Objects.hash(Id, name, contacts, category,amount);
     }
 }
